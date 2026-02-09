@@ -51,7 +51,7 @@ public class ContactRepository : IContactRepository
         };
     }
 
-    public async Task<Contact?> GetByIdAsync(int id)
+    public async Task<Contact> GetByIdAsync(int id)
     {
         return await _context.Contacts.FindAsync(id);
     }
