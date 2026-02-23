@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
 using ContactApi.Data.Data;
 using ContactApi.Domain.Models;
+using Data.Interface;
 using Microsoft.EntityFrameworkCore;
 
 namespace ContactApi.Data.Repositories;

@@ -1,6 +1,6 @@
-using ContactApi.Data.Repositories;
 using ContactApi.Domain.DTOs;
 using ContactApi.Domain.Models;
+using Data.Interface;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;

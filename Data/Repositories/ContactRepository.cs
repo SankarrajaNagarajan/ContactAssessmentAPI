@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using ContactApi.Data.Data;
 using ContactApi.Domain.Common;
 using ContactApi.Domain.Models;
+using Data.Interface;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 

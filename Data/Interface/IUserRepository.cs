@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using ContactApi.Domain.Models;
 
-namespace ContactApi.Data.Repositories;
+namespace Data.Interface;
 
 public interface IUserRepository
 {

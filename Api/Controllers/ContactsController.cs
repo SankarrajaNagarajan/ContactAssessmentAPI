@@ -1,7 +1,7 @@
-using ContactApi.Data.Repositories;
 using ContactApi.Domain.Common;
 using ContactApi.Domain.DTOs;
 using ContactApi.Domain.Models;
+using Data.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -87,7 +87,7 @@ namespace ContactApi.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-// [Authorize] 
+[Authorize] 
 public class ContactsController : ControllerBase
 {
     private readonly IContactRepository _contactRepository;
